@@ -4,9 +4,7 @@
   "package": "xyz.archiebaldry.letitsnow.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
-  ],
-  "client": [
-    "LetItSnowMixin"
+    "WorldMixin"
   ],
   "injectors": {
     "defaultRequire": 1
