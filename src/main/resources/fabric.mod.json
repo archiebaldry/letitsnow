@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "letitsnow",
+  "version": "${version}",
+
+  "name": "Let It Snow",
+  "description": "Snow in every biome for modern Minecraft (Fabric)",
+  "authors": [
+    "archiebaldry"
+  ],
+  "contact": {
+    "website": "https://archiebaldry.xyz",
+    "repo": "https://github.com/archiebaldry/letitsnow"
+  },
+
+  "license": "LGPL-3",
+  "icon": "assets/letitsnow/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "xyz.archiebaldry.letitsnow.LetItSnow"
+    ]
+  },
+  "mixins": [
+    "letitsnow.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.10",
+    "fabric": "*",
+    "minecraft": "1.19.2",
+    "java": ">=17"
+  }
+}
